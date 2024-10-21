@@ -1,0 +1,90 @@
+/* Genel Stil */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1a1a1a, #333);
+    color: #f2f2f2;
+}
+
+/* Üst Başlık */
+header {
+    background-color: #111;
+    text-align: center;
+    padding: 100px 20px;
+    color: #ffffff;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAwAB/6ZlEAAAAABJRU5ErkJggg==');
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* İletişim Bilgileri */
+.contact {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgba(51, 51, 51, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.contact a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Alt Bilgi */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #777;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 36px;
+    }
+    header p {
+        font-size: 16px;
+    }
+    .contact h2 {
+        font-size: 28px;
+    }
+    .contact p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact p {
+        font-size: 16px;
+    }
+}
